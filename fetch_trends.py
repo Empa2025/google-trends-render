@@ -12,5 +12,5 @@ data = {
     "top_keywords": top_keywords
 }
 
-with open("trends_data.json", "w") as f:
+with open("static/trends_data.json", "w") as f:
     json.dump(data, f)
